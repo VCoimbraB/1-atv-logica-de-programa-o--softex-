@@ -1,0 +1,33 @@
+def  insereparte ( raiz , nodo ):
+    se  raiz  for  Nenhum :
+        raiz  =  nodo
+
+    eli  raiz . chave  <  nodo . chave :
+        se  raiz . direita  é  Nenhum :
+            raiz . direita  =  nó
+        mais :
+            insere ( raiz . direita , nodo )
+
+    mais :
+        se  raiz . esquerda  é  Nenhum :
+            raiz . esquerda  =  nodo
+        mais :
+            insere ( raiz . esquerda , nodo )
+    
+#Remoção do nó '8' com filho '7', inserção do nó '6'
+raiz  =  NodoÁrvore ( 45 )
+para  chave  em [ 20 , 30 , 60 , 81 , 97 , 100 , 6 , 4 ]:
+    nodo  =  NodoArvore ( chave )
+    insere ( raiz , nodo )
+
+print ( "Lista 1 em ordem:" )
+em_ordem ( raiz )
+
+#Remoção do nó '15', inserção do nó '10'
+raiz  =  NodoArvore ( 7 )
+para  chave  em [ 10 , 6 , 18 , 3 , 16 , 20 , 4 ]:
+    nodo  =  NodoArvore ( chave )
+    insere ( raiz , nodo )
+
+print ( " \n Lista 2 em ordem:" )
+em_ordem ( raiz )
