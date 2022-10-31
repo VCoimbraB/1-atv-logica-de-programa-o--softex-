@@ -1,1 +1,46 @@
-1111
+print ( 'digite o primeiro numero complexo(x). ' )
+print ( 'parte real:' )
+a  =  float ( entrada ())
+print ( 'parte imaginaria:' )
+b  =  float ( entrada ())
+x  =  complexo ( a , b )
+imprimir ( x )
+print ( 'parte real:'  +  str ( x . real ))
+print ( 'parte imaginaria: '  +  str ( x . imag ))
+
+print ( ' \n \n digite o segundo numero complexo(y). ' )
+print ( 'parte real:' )
+c  =  float ( entrada ())
+print ( 'parte imaginaria:' )
+d  =  float ( entrada ())
+y  =  complexo ( c , d )
+imprimir ( y )
+print ( 'parte real:'  +  str ( y . real ))
+print ( 'parte imaginaria: '  +  str ( y . imag ))
+
+print ( ' \n \n digite o terceiro numero complexo(z). ' )
+print ( 'parte real:' )
+e  =  float ( entrada ())
+print ( 'parte imaginaria:' )
+f  =  float ( entrada ())
+z  =  complexo ( e , f )
+imprimir ( z )
+print ( 'parte real:'  +  str ( z . real ))
+print ( 'parte imaginaria: '  +  str ( z . imag ))
+
+soma  =  x  +  y  +  z
+print ( ' \n \n soma: '  +  str ( soma ))
+print ( 'parte real:'  +  str ( soma . real ))
+print ( 'parte imaginaria: '  +  str ( soma . imag ))
+sub  =  x  -  y  -  z
+print ( ' \n \n soma: '  +  str ( sub ))
+print ( 'parte real:'  +  str ( sub . real ))
+print ( 'parte imaginaria: '  +  str ( sub . imag ))
+mult  =  x  *  y  *  z
+print ( ' \n \n soma: '  +  str ( mult ))
+print ( 'parte real:'  +  str ( mult . real ))
+print ( 'parte imaginaria:'  +  str ( mult . imag ))
+div  =  z  /  x
+print ( ' \n \n soma: '  +  str ( div ))
+print ( 'parte real:'  +  str ( div . real ))
+print ( 'parte imaginaria:'  +  str ( div . imag ))
