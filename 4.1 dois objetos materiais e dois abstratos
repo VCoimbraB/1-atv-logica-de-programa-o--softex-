@@ -1,0 +1,65 @@
+Objeto: teclado
+
+atributos
+cor: peto
+led: RGB
+modelo: T-dagger bora
+
+métodos:
+teclar
+vencedor
+conectar
+desconectar
+
+
+
+Objeto: monitor
+
+atributos
+cor: peto
+som: esterio
+modelo: philips 22iv
+polegadas: 21'5
+
+métodos:
+conectar
+desconectar
+aumentar som
+diminuir som
+núcleos
+
+
+
+Objeto: musica
+
+atributos
+Duração: 3 minutos e 20 segundos
+gênero: pagode
+autor: Péricles
+arquivo .mp3
+
+métodos:
+Toque
+pausa
+aumentar som
+diminuir som
+ciclo
+
+
+Objeto: jogo
+
+atributos
+duração: 22h
+plataforma: PC
+multijogador: online/local
+distribuidora: Riot Games
+
+métodos:
+jogar
+pausador
+correr
+pular
+andar
+finalizando
+iniciar
+atacar
